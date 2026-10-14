@@ -1,0 +1,59 @@
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-secret.properties
+
+# React / Vite build files
+dist/
+build/
+coverage/
+
+# Spring Boot / Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Testing and cache
+.nyc_output/
+.eslintcache
+.cache/
+
+# Python (if used)
+__pycache__/
+*.py[cod]
+venv/
+.venv/
